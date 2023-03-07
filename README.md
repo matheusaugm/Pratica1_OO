@@ -10,6 +10,7 @@ b) Crie os possíveis atributos de cada classe
 
 # Questão 2 - EmpregoFaculdade
 Observe a classe abaixo:
+```
 Class EmpregadoDaFaculdade{
       private String nome;
       private double salario;
@@ -21,7 +22,7 @@ String getInfo(){
       return "nome:” + this.nome + " com salário “ + this.salario;
 }
 }
-
+```
 a) Alterar o método getGastos() para somar um bônus de R$ 40 reais por hora/aula.
 b) Alterar o método getInfo () para retornar atualizado o valor que o professor irá
 receber (salário + bônus).
